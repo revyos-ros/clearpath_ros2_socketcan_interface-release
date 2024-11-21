@@ -1,0 +1,20 @@
+ros-jazzy-clearpath-ros2-socketcan-interface (2.0.0-1bookworm) bookworm; urgency=high
+
+  * Added README.
+  * Disabled copyright tests.
+  * Fixed linting.
+  * Added CI
+  * Added issue templates.
+  * Added codeowners.
+  * Updated package.xml
+  * Tx queue and wall timer
+  * Constructor with callback
+  * Small code styling to make default tests pass
+  * Add delay before publishing messages
+  * Initial add of clearpath_ros2_socketcan_interface
+  * Initial commit
+  * Contributors: Chris Iverach-Brereton, Luis Camero, Roni Kreinin, Tony Baltovski
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 21 Nov 2024 05:00:00 -0000
+
+
