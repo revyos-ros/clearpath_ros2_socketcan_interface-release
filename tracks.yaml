@@ -1,3 +1,4 @@
+release_repo_url: git@github.com:revyos-ros/clearpath_ros2_socketcan_interface-release.git
 tracks:
   humble:
     actions:
