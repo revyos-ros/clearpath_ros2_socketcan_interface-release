@@ -1,0 +1,92 @@
+ros-jazzy-clearpath-ros2-socketcan-interface (2.1.4-1noble) noble; urgency=high
+
+  * Fixed using a global namespace.
+  * Match package name
+  * Fix typos in issue templates
+  * Contributors: Hilary, Tony Baltovski
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 12 Jun 2025 00:00:00 -0000
+
+ros-jazzy-clearpath-ros2-socketcan-interface (2.1.3-1noble) noble; urgency=high
+
+  * Fix: Spin Timeout (#13 <https://github.com/clearpathrobotics/clearpath_ros2_socketcan_interface/issues/13>)
+    * Add timeout to spin to prevent script from waiting when node has failed
+    * Update log to match appropriate action
+  * Contributors: luis-camero
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 21 May 2025 00:00:00 -0000
+
+ros-jazzy-clearpath-ros2-socketcan-interface (2.1.2-1noble) noble; urgency=high
+
+  * Fix: Use script instead of OpaqueFunction (#12 <https://github.com/clearpathrobotics/clearpath_ros2_socketcan_interface/issues/12>)
+    * Use script instead of OpaqueFunction
+    * Add missing line
+    * Add license header
+    * Add EOF line
+    * Add retry in the event lifecycle service is not up yet
+  * Use arguments instead of perform(context) (#11 <https://github.com/clearpathrobotics/clearpath_ros2_socketcan_interface/issues/11>)
+  * Reattempt transitions on failure (#10 <https://github.com/clearpathrobotics/clearpath_ros2_socketcan_interface/issues/10>)
+    * Reattempt lifecycle transitions on failure
+    * Unique activator node names
+    * Removed namespace from node name
+    * Linting
+  * Fix: Multiple IncludeLaunchDescription (#9 <https://github.com/clearpathrobotics/clearpath_ros2_socketcan_interface/issues/9>)
+    * Use opaque function
+    * Add import and context
+    * Type performed context
+  * Contributors: Roni Kreinin, luis-camero
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Tue, 20 May 2025 00:00:00 -0000
+
+ros-jazzy-clearpath-ros2-socketcan-interface (2.1.1-1noble) noble; urgency=high
+
+  * Increased timeout to 1 second (#8 <https://github.com/clearpathrobotics/clearpath_ros2_socketcan_interface/issues/8>)
+  * Contributors: Roni Kreinin
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Tue, 08 Apr 2025 00:00:00 -0000
+
+ros-jazzy-clearpath-ros2-socketcan-interface (2.1.0-1noble) noble; urgency=high
+
+  * Wait for interface to be up before launching node (#7 <https://github.com/clearpathrobotics/clearpath_ros2_socketcan_interface/issues/7>)
+    * Wait for interface to be UP before starting node
+  * Updated CI to Jazzy. (#5 <https://github.com/clearpathrobotics/clearpath_ros2_socketcan_interface/issues/5>)
+  * Contributors: Roni Kreinin, Tony Baltovski
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Fri, 31 Jan 2025 00:00:00 -0000
+
+ros-jazzy-clearpath-ros2-socketcan-interface (2.0.1-1noble) noble; urgency=high
+
+  * Lint launch files (#4 <https://github.com/clearpathrobotics/clearpath_ros2_socketcan_interface/issues/4>)
+  * Prefix node names with can interface
+  * Add our own launch files that allow us to change namespaces
+  * Change CI to Humble.
+  * Contributors: Luis Camero, Roni Kreinin, Tony Baltovski, luis-camero
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Fri, 17 Jan 2025 00:00:00 -0000
+
+ros-jazzy-clearpath-ros2-socketcan-interface (2.0.0-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 21 Nov 2024 00:00:00 -0000
+
+ros-jazzy-clearpath-ros2-socketcan-interface (1.0.0-1noble) noble; urgency=high
+
+  * Added README.
+  * Disabled copyright tests.
+  * Fixed linting.
+  * Added CI
+  * Added issue templates.
+  * Added codeowners.
+  * Updated package.xml
+  * Tx queue and wall timer
+  * Constructor with callback
+  * Small code styling to make default tests pass
+  * Add delay before publishing messages
+  * Initial add of clearpath_ros2_socketcan_interface
+  * Initial commit
+  * Contributors: Chris Iverach-Brereton, Luis Camero, Roni Kreinin, Tony Baltovski
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 21 Nov 2024 00:00:00 -0000
+
+
